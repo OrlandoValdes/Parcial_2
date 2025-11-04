@@ -681,6 +681,17 @@ footer p{
     margin: 0 70px;
 }
 
+/*Estilos para la página de introducción al desarrollo de videojuegos (introduccion.html)*/
+
+#contenedor_introduccion{
+    padding: 70px 0;
+}
+
+.imagen_introduccion{
+    height: 340px;
+}
+
+
 /*Estilos para tamaño de ventana del navegador*/
 
 @media (max-width: 900px) {
