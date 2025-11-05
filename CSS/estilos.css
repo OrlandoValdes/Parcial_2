@@ -691,6 +691,112 @@ footer p{
     height: 340px;
 }
 
+/*Estilos para la página de ¿Qué es el desarrollo de videojuego? (desarrollo.html)*/
+
+.contenido_cuerpo{
+    color:white;
+    margin: 20px 70px;
+    text-align: justify;
+}
+
+.contenido_cuerpo p{
+    font-size: 1.5rem;
+    padding: 30px 0;
+}
+
+#texto_introduccion{
+    margin: 0 70px;
+}
+
+.contenido_cuerpo h3{
+    font-size: 3rem;
+    padding: 20px 0;
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+
+.contenido_cuerpo li{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding: 10px 0;
+    padding-right: 30px;
+}
+
+.contenido_cuerpo ul{
+    padding-left: 60px;
+}
+
+.contenido_cuerpo ol{
+    padding-left: 60px;
+}
+
+.secciones_contenido{
+    margin: 70px;
+    background: #8C00FF;
+    border: 4px solid #FFC400;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.secciones_contenido h3{
+    padding-left: 30px;
+    color:#FF3F7F;
+}
+
+.secciones_contenido p{
+    padding-left: 30px;
+}
+
+.secciones_contenido li{
+    margin-right: 30px;
+}
+
+/*Estilos para la página de Cómo elegir un motor de videojuegos (elegirmotor.html)*/
+
+.secciones_contenido table {
+    width: 90%;
+    border-collapse: collapse;
+    background-color: #450693;
+    border-radius: 8px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.secciones_contenido th, td {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+    padding: 12px;
+    color: white;
+}
+
+.secciones_contenido th {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: #FF3F7F;
+    color: black;
+}
+
+/*Estilos para la página de Tu Primer Proyecto (primerproyecto.html)*/
+
+#subtitulo_proyecto{
+    margin: 0 80px;
+}
+
+/*Estilos para la página de Programación de Videojuegos (primerproyecto.html)*/
+
+#subtitulo_programar{
+    margin: 0 80px;
+    text-align: center;
+}
 
 /*Estilos para tamaño de ventana del navegador*/
 

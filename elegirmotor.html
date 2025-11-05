@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS\estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
+    <title>Cómo elegir un motor de videojuegos</title>
+</head>
+<body>
+
+    <header>
+        <ul>
+            <li> <img src="Images\MasterVid.png" alt="MasterVid_Logo"> </li>
+            <li> <button>Iniciar Sesión</button></li>
+        </ul>
+    </header>
+
+    <div class="navbar">
+        <ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="tutoriales.html">Tutoriales</a></li>
+				<li><a href="portafolio.html">Portafolio</a></li>
+				<li><a href="recursos.html">Recursos</a></li>
+                <li><a href="comunidad.html">Comunidad</a></li>
+                <li><a href="">Contacto</a></li>
+		</ul>
+    </div>
+    
+    <div class="titulo">
+         <h3>Cómo elegir un motor de videojuegos</h3>
+         <img src="Images\Elegir_motor.png" alt="">
+    </div>
+
+    <div class="contenido_cuerpo">
+
+         <p id="texto_introduccion">
+            Elegir un motor de videojuegos adecuado es una de las decisiones más importantes en el proceso de desarrollo, ya que determina las herramientas, el lenguaje de programación, 
+            la calidad visual y el flujo de trabajo del proyecto. <br> <br>
+            Un motor de juego (o game engine) es una plataforma que proporciona las bases técnicas para construir videojuegos: renderizado gráfico, físicas, sonido, 
+            animaciones, inteligencia artificial y sistemas de scripting, entre otros.
+         </p>
+
+      <div class="secciones_contenido">
+
+        <h3>Elección del Motor de Videojuegos</h3>
+        <p>La elección del motor debe basarse en varios factores clave::</p>
+        <ol>
+            <li>Tipo de juego y plataforma de destino
+                <p>
+                    Algunos motores son más adecuados para juegos 2D, otros para 3D o realidad virtual. Además, no todos exportan con igual facilidad a consolas, PC o móviles.
+                </p>
+            </li>
+            <li>Lenguaje de programación
+                <p>
+                    Cada motor utiliza diferentes lenguajes (por ejemplo, C# en Unity, C++ o Blueprints en Unreal, GDScript en Godot). Es importante escoger uno que se adapte al nivel 
+                    de experiencia del desarrollador.
+                </p>
+            </li>
+            <li>Facilidad de uso y curva de aprendizaje
+                <p>
+                    Los motores más potentes suelen ser más complejos. Para principiantes, puede convenir uno con una interfaz intuitiva y documentación abundante.
+                </p>
+            </li>
+            <li>Licencia y costos
+                <p>
+                    Algunos motores son totalmente gratuitos, mientras que otros requieren pagos o regalías dependiendo de los ingresos del juego.
+                </p>
+            </li>
+             <li>Comunidad y soporte
+                <p>
+                    Un motor con una comunidad grande, foros activos y tutoriales facilita la resolución de problemas y el aprendizaje constante.
+                </p>
+            </li>
+             <li>Rendimiento y escalabilidad
+                <p>
+                    Es importante considerar el rendimiento que ofrece el motor según el tipo de proyecto. Los motores de alto nivel permiten crear mundos complejos, 
+                    pero pueden exigir más recursos de hardware.
+                </p>
+            </li>
+      </div>
+
+      <div class="secciones_contenido">
+
+        <h3>Tabla comparativa de algunos motores de videojuegos</h3>
+
+        <table >
+         <thead>
+          <tr>
+            <th>Motor</th>
+            <th>Lenguaje principal</th>
+            <th>Tipo de juegos ideales</th>
+            <th>Ventajas principales</th>
+            <th>Desventajas principales</th>
+            <th>Licencia / Costo</th>
+          </tr>
+          </thead>
+          <tbody>
+           <tr>
+            <td>Unity</td>
+            <td>C#</td>
+            <td>2D, 3D, VR, AR, móviles, consolas</td>
+            <td>
+              - Amplia documentación y comunidad global.<br>
+              - Compatible con casi todas las plataformas.<br>
+              - Gran cantidad de assets y plugins en la Asset Store.<br>
+              - Ideal para desarrollo móvil y multiplataforma.
+            </td>
+            <td>
+              - Requiere optimización para proyectos 3D grandes.<br>
+              - Interfaz puede volverse compleja con muchos objetos.
+            </td>
+            <td>Plan gratuito con límites de ingresos; versiones pagas a partir de cierto umbral anual.</td>
+           </tr>
+           <tr>
+            <td>Unreal Engine</td>
+            <td>C++ / Blueprints (visual)</td>
+            <td>3D, AAA, simulaciones, VR</td>
+            <td>
+              - Gráficos de alta calidad y realismo.<br>
+              - Sistema visual de programación (Blueprints).<br>
+              - Herramientas integradas para animación, materiales y cinemáticas.<br>
+              - Ideal para proyectos grandes y realistas.
+            </td>
+            <td>
+              - Curva de aprendizaje más empinada.<br>
+              - Requiere equipos potentes.<br>
+              - Menos práctico para juegos 2D simples.
+            </td>
+            <td>Gratuito; cobra regalías del 5% sobre ingresos después del primer millón de dólares.</td>
+          </tr>
+          <tr>
+            <td>Godot Engine</td>
+            <td>GDScript, C#, C++</td>
+            <td>2D, 3D, indie, educativos</td>
+            <td>
+              - Código abierto (open source).<br>
+              - Ligero, rápido y multiplataforma.<br>
+              - Ideal para juegos 2D.<br>
+              - Interfaz limpia y fácil de aprender.<br>
+              - Sin costos ni regalías.
+            </td>
+            <td>
+              - Menos soporte comercial y recursos profesionales.<br>
+              - Gráficos 3D menos potentes que Unity o Unreal (aunque ha mejorado mucho).
+            </td>
+            <td>Totalmente gratuito (licencia MIT, sin regalías).</td>
+          </tr>
+          <tr>
+            <td>GameMaker Studio</td>
+            <td>GML (GameMaker Language)</td>
+            <td>2D</td>
+            <td>
+              - Ideal para principiantes.<br>
+              - Entorno visual intuitivo (drag and drop).<br>
+              - Perfecto para juegos 2D y prototipos rápidos.<br>
+              - Amplia documentación y comunidad educativa.
+            </td>
+            <td>
+              - Limitado para desarrollo 3D.<br>
+              - Menos escalable para proyectos grandes.<br>
+              - Algunas funciones avanzadas requieren licencia.
+            </td>
+            <td>Versión gratuita limitada; versiones pagas con más exportaciones.</td>
+          </tr>
+         </tbody>
+       </table>
+      </div>
+    </div>
+
+    <footer>
+        <h3 id="slogan">Con desarrollar videojuegos, la diversión es infinita</h3>
+        <ul>
+            <li><h3>Siguenos por:</h3></li>
+            <li><img src="Images\Facebook.png" alt="Facebook"></li>
+            <li><img src="Images\Twitter.png" alt="Twitter"></li>
+            <li><img src="Images\Youtube.png" alt="Youtube"></li>
+            <li><img src="Images\Instagram.png" alt="Instagram"></li>
+        </ul>
+        <p> &copy; 2025 Mastervid, todos los derechos reservados</p>
+    </footer>
+    
+</body>
+</html>
