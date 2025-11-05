@@ -302,24 +302,22 @@ footer p{
     font-size: 3rem;
 }
 
-.contenido_cuadros_tutoriales ul{
-   display: flex;
-   align-items: flex-start;
-   gap: 2em;                
-   flex-wrap: wrap;
+.contenidointerno_tutoriales{
+    display: flex;                      
+    align-items: center; 
+    gap: 32px;
 }
 
-.contenido_cuadros_tutoriales li{
-     list-style: none;
-}
-
-.contenido_cuadros_tutoriales img{
-   max-width: 700px;        
-   width: 100%;
-   height: 400px;
-   border-radius: 8px; 
-   margin-left: 50px;
-   margin-top: 20px;
+.contenidointerno_tutoriales img{
+    max-width: 100%;        
+    width: 700px;
+    height: auto;
+    border-radius: 8px; 
+    display: block;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    object-fit: contain;
 }
 
 .contenido_cuadros_tutoriales p{
@@ -328,10 +326,6 @@ footer p{
     color: white;
     font-size: 1.8rem;
     text-align: justify;
-}
-
-#desarrollo_resumen{
-    margin-top: 50px;
 }
 
 .botones_tutorial{
@@ -352,21 +346,6 @@ footer p{
 
 .botones_tutorial:hover{
     box-shadow: 0 0 20px rgba(0,0,0,0.5);;
-}
-
-#modelado_resumen{
-    padding: 0 30px;
-    padding-top: 30px;
-    font-size: 2rem;
-}
-
-#engines_resumen{
-    padding-top: 30px;
-}
-
-#avanzado_resumen{
-    padding-top: 30px;
-    font-size: 2rem;
 }
 
 /*Estilos para la página de portafolio (portafolio.html)*/
@@ -538,7 +517,7 @@ footer p{
 
 /*Estilos para la página de recursos (recursos.html)*/
 
-.subtitulo_recursos{
+.subtitulo{
     margin: 0 80px;
 }
 .contenedor_amarillo{
@@ -747,10 +726,12 @@ footer p{
 .secciones_contenido h3{
     padding-left: 30px;
     color:#FF3F7F;
+    margin-right: 30px;
 }
 
 .secciones_contenido p{
     padding-left: 30px;
+    margin-right: 30px;
 }
 
 .secciones_contenido li{
@@ -758,6 +739,11 @@ footer p{
 }
 
 /*Estilos para la página de Cómo elegir un motor de videojuegos (elegirmotor.html)*/
+
+.tabla_responsive{
+   width: 100%;
+   overflow-x: auto;
+}
 
 .secciones_contenido table {
     width: 90%;
@@ -785,35 +771,83 @@ footer p{
     color: black;
 }
 
-/*Estilos para la página de Tu Primer Proyecto (primerproyecto.html)*/
+/*Estilos para la página de Contacto (Contacto.html)*/
 
-#subtitulo_proyecto{
-    margin: 0 80px;
+.contenedor_contacto{
+    margin: 70px;
+    background: #8C00FF;
+    border: 4px solid #FFC400;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
 }
 
-/*Estilos para la página de Programación de Videojuegos (primerproyecto.html)*/
-
-#subtitulo_programar{
-    margin: 0 80px;
+.contenedor_contacto h3{
     text-align: center;
+    padding: 40px 40px;
+    color: white;
+    font-size: 3rem;
 }
 
-/*Estilos para tamaño de ventana del navegador*/
+.contenedorinterno_contacto{
+    display: flex;                      
+    align-items: center; 
+    gap: 20px;
+}
 
-@media (max-width: 900px) {
-  .contenido_cuadros_tutoriales ul {
+.contenedorinterno_contacto img{
+    max-width: 500px;        
+    width: 100%;
+    height: 400px;
+    border-radius: 8px; 
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.contenedorinterno_contacto p{
+    margin: 30px;
+    margin-top: 25px;
+    color: white;
+    font-size: 1.6rem;
+    text-align: justify;
+    margin-right: 50px;
+}
+
+#klonoa_gif{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+/*Estilos para tamaño de ventana del navegador (responsive)*/
+
+@media (max-width: 1180px) {
+  .contenidointerno_tutoriales {
     flex-direction: column;
     align-items: center;
-    gap: 1em;
+    gap: 18px;
   }
-  .contenido_cuadros_tutoriales img{
-     width: 90%;            
-     margin: 0 auto;
+  .contenidointerno_tutoriales img {
+    width: 70vw; 
+    max-width: 400px;
   }
-  .contenido_cuadros_tutoriales .texto {
-    width: 90%;            
-    margin: 0 auto;
+  .contenidointerno_tutoriales p {
+    text-align: center;      
   }
-
+  .contenedorinterno_contacto{
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+  .contenedorinterno_contacto img{
+     width: 70vw; 
+    max-width: 400px;
+  }
+  .contenedorinterno_contacto p{
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
 }
-
